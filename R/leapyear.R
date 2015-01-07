@@ -2,8 +2,8 @@
 # function to calculate the leapyears
 leapyear <- function(year){
 
-# Return warning message when the input is a character  
-  if (is.character(year)) {
+# Return warning message when the input is not a number 
+  if (!is.numeric(year)) {
     warning("input year is not numerical, please try again")
   
 # exclude the years that are below 1800

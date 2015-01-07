@@ -3,7 +3,6 @@
 # 7-1-2015
 
 #loading library
-library(raster)
 
 #source of the functions
 source('R/leapyear.R')
